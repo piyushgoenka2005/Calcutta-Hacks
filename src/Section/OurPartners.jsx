@@ -7,6 +7,9 @@ import xyz from '../../src/assets/Icon/.xyz.png';
 import interviewbuddy from '../../src/assets/Icon/interviewbuddy.png';
 import loveable from '../../src/assets/Icon/loveable.png';
 import elevenlabs from '../../src/assets/Icon/elevenlabs.png';
+import axicov from '../../src/assets/Icon/axicov.png';
+import drop from '../../src/assets/Icon/drop.png';
+import keploy from '../../src/assets/Icon/keploy.png';
 
 const categories = {
   silverspn: {
@@ -18,28 +21,29 @@ const categories = {
         link: 'https://ethindia2024.devfolio.co/overview',
         tagline: 'Empowering the future of hackathons',
       },
-    ],
-  },
-  vibingptn: {
-    name: 'Vibing Partner',
-    partners: [
       {
-        name: 'Lovable',
-        logo: loveable,
-        link: 'https://lovable.dev/',
-        tagline: 'Create apps and websites by chatting with AI',
+        name: 'Axicov',
+        logo: axicov,
+        link: 'https://axicov.com/',
+        tagline: 'Explore The Agentic Economy',
+      },
+      {
+        name: 'Keploy',
+        logo: keploy,
+        link: 'https://keploy.io/',
+        tagline: 'AI Generated Tests that actually matter',
+      },
+      {
+        name: 'The Drop Organization',
+        logo: drop,
+        link: 'https://drop.org.in/',
+        tagline: 'Master In-Demand Skills with Our Online Course & Secure Your Future!',
       },
     ],
   },
-  buildingptn: {
-    name: 'Building Partners',
+  audioaiptn: {
+    name: 'AudioAI Partner',
     partners: [
-      {
-        name: 'Bolt.new',
-        logo: bolt,
-        link: 'https://bolt.new/',
-        tagline: 'Create stunning apps & websites by chatting with AI',
-      },
       {
         name: 'ElevenLabs',
         logo: elevenlabs,
@@ -48,8 +52,25 @@ const categories = {
       },
     ],
   },
-  educationspn: {
-    name: 'Education Sponsors',
+  vibingptn: {
+    name: 'Vibing Partners',
+    partners: [
+      {
+        name: 'Lovable',
+        logo: loveable,
+        link: 'https://lovable.dev/',
+        tagline: 'Create apps and websites by chatting with AI',
+      },
+      {
+        name: 'Bolt.new',
+        logo: bolt,
+        link: 'https://bolt.new/',
+        tagline: 'Create stunning apps & websites by chatting with AI',
+      },
+    ],
+  },
+  educationptn: {
+    name: 'Education Partners',
     partners: [
       {
         name: 'Codecrafters',
@@ -65,8 +86,8 @@ const categories = {
       },
     ],
   },
-  domainspn: {
-    name: 'Domain Sponsor',
+  domainptn: {
+    name: 'Domain Partner',
     partners: [
       {
         name: 'Gen xyz',
@@ -208,17 +229,17 @@ const OurPartners = () => {
         {/* Silver Sponsor */}
         <SponsorCard category="silverspn" />
 
+        {/* AudioAI Partner */}
+        <SponsorCard category="audioaiptn" />
+
         {/* Vibing Partner */}
         <SponsorCard category="vibingptn" />
 
-        {/* Creative Partner */}
-        <SponsorCard category="buildingptn" />
+        {/* Education Partners */}
+        <SponsorCard category="educationptn" />
 
-        {/* Education Sponsors */}
-        <SponsorCard category="educationspn" />
-
-        {/* Domain Sponsor */}
-        <SponsorCard category="domainspn" />
+        {/* Domain Partner */}
+        <SponsorCard category="domainptn" />
 
         {/* Partner CTA */}
         <div className="text-center">
