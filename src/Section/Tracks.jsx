@@ -12,7 +12,7 @@ import openInovation from '../../src/assets/Icon/openInovation.png';
 export const VintageCard = ({ children, className }) => {
   return (
     <div
-      className={`bg-[#e0d1b0] border-4 border-[#3e2c1d] p-1  flex justify-center  align-center mx-[2vw] my-[2vh] shadow-md ${className}`}
+      className={`bg-[#e0d1b0] border-4 border-[#3e2c1d] p-1 flex justify-center items-center mx-[2vw] my-[2vh] shadow-md ${className}`}
     >
       <div className="relative z-10 bg-[#e7d7b7] flex flex-col h-[98%] w-[98%] ">{children}</div>
     </div>
