@@ -65,8 +65,10 @@ const Hero = () => (
 
           {/* Tagline */}
           <div className="flex justify-center items-start mb-6">
-            <div className="inline-block border-4 border-vintage-dark px-6 py-2 bg-[#D4AF37]">
-              <span className="font-display text-sm tracking-widest font-normal">HERITAGE • INNOVATION • EXCELLENCE</span>
+            <div className="inline-block border-[2.5px] sm:border-4 border-[#3E2C1D] px-3 py-1.5 sm:px-6 sm:py-2 bg-[#D4AF37]">
+              <span className="font-display whitespace-nowrap text-[2.3vw] sm:text-sm md:text-base lg:text-lg xl:text-xl tracking-widest font-semibold">
+                HERITAGE • INNOVATION • EXCELLENCE
+              </span>
             </div>
           </div>
 
